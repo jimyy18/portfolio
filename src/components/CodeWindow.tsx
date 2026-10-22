@@ -64,7 +64,7 @@ export default function CodeWindow() {
         </div>
       </div>
 
-      <div className="absolute -bottom-5 -left-5 hidden rounded-lg border border-hairline bg-canvas px-4 py-3 shadow-[0_1px_3px_rgba(20,20,19,0.08)] sm:block">
+      <div className="absolute -bottom-14 -left-5 hidden rounded-lg border border-hairline bg-canvas px-4 py-3 shadow-[0_1px_3px_rgba(20,20,19,0.08)] sm:block">
         <p className="font-serif text-[22px] leading-none text-ink">4+</p>
         <p className="mt-1 font-sans text-[12px] text-muted">Years of Experience</p>
       </div>

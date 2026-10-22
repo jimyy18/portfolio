@@ -8,10 +8,8 @@ export const profile = {
   linkedinLabel: 'linkedin.com/in/jimy',
   yearsExperience: '4+',
   summaryParagraphs: [
-    "I'm a Backend Engineer and Technical Lead focused on building reliable, scalable, and production-ready backend systems. My experience spans government data integration, financial services, and HRIS platforms.",
-    'I primarily work with Node.js, TypeScript, PostgreSQL, and microservices architecture, with hands-on experience in REST API development, system design, database design and optimization, API integration, and backend performance.',
-    "Beyond writing code, I enjoy taking ownership of technical decisions and working closely with frontend, DevOps, and QA teams to deliver stable systems. I've also led engineering teams, helping define technical approaches, API contracts, database structures, and development practices.",
-    "Currently, I'm focused on building backend systems that can handle complex business requirements, large-scale data integration, and real-world production challenges.",
+    "I'm a Backend Engineer and Technical Lead with 4+ years designing and scaling production backend systems across government data integration, financial services, and HRIS platforms. I primarily work with Node.js, TypeScript, PostgreSQL, and microservices architecture — covering REST API development, system design, database optimization, and backend performance.",
+    "Beyond writing code, I take ownership of technical decisions and work closely with frontend, DevOps, and QA teams to deliver stable systems. I've led engineering teams on API contracts, database structures, and development practices, and I'm currently focused on backend systems that handle complex business requirements and large-scale data integration.",
   ],
 }
 

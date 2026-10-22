@@ -39,7 +39,7 @@ export default function Experience() {
 
                 <ul className="mt-5 space-y-2.5 pl-14">
                   {job.bullets.map((bullet) => (
-                    <li key={bullet} className="relative font-sans text-[14.5px] leading-relaxed text-on-dark-soft">
+                    <li key={bullet} className="relative font-sans text-[14.5px] leading-relaxed text-on-dark/85">
                       <span className="absolute -left-4 top-[10px] h-1 w-1 rounded-full bg-primary" />
                       {bullet}
                     </li>
