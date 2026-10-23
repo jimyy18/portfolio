@@ -5,8 +5,8 @@ import CodeWindow from './CodeWindow'
 
 export default function Hero() {
   return (
-    <section id="top" className="mx-auto grid max-w-[1200px] gap-16 px-6 pb-section-sm pt-16 md:grid-cols-2 md:items-center md:pt-24">
-      <div>
+    <section id="top" className="mx-auto grid max-w-[1200px] gap-16 overflow-x-hidden px-6 pb-section-sm pt-16 md:grid-cols-2 md:items-center md:pt-24">
+      <div className="min-w-0">
         <Reveal>
           <span className="inline-flex items-center gap-2 rounded-pill bg-surface-card px-3 py-1 font-sans text-[13px] font-medium text-body-strong">
             <span className="h-1.5 w-1.5 rounded-full bg-success" />
@@ -54,7 +54,7 @@ export default function Hero() {
         </Reveal>
       </div>
 
-      <Reveal delay={2} className="relative">
+      <Reveal delay={2} className="relative min-w-0">
         <div className="pointer-events-none absolute -right-6 -top-6 h-40 w-40 rounded-full bg-primary/10 blur-3xl" />
         <CodeWindow />
       </Reveal>

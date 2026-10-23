@@ -55,12 +55,12 @@ export default function CodeWindow() {
           </pre>
         </div>
 
-        <div className="mt-4 flex items-center justify-between rounded-md bg-surface-dark-elevated px-4 py-2 font-mono text-[12px] text-on-dark-soft">
-          <span className="flex items-center gap-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-success" />
+        <div className="mt-4 flex flex-col gap-1 rounded-md bg-surface-dark-elevated px-4 py-2 font-mono text-[12px] text-on-dark-soft sm:flex-row sm:items-center sm:justify-between sm:gap-0">
+          <span className="flex items-center gap-2 whitespace-nowrap">
+            <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-success" />
             build passed
           </span>
-          <span>node v20 · production</span>
+          <span className="whitespace-nowrap">node v20 · production</span>
         </div>
       </div>
 

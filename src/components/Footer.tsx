@@ -11,7 +11,7 @@ export default function Footer() {
           {profile.name}
         </a>
         <p className="font-sans text-[13px] text-on-dark-soft">
-          © {year} {profile.name}. Built with React &amp; Tailwind CSS.
+          © {year} {profile.name}.
         </p>
       </div>
     </footer>
