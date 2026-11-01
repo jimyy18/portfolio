@@ -2,7 +2,7 @@ import { FolderGit2 } from 'lucide-react'
 import { projects } from '../data/profile'
 import Reveal from './Reveal'
 
-const MIN_SLOTS = 3
+const MIN_SLOTS = 4
 const placeholderCount = Math.max(MIN_SLOTS - projects.length, 0)
 const placeholders = Array.from({ length: placeholderCount }, (_, i) => i + 1)
 
@@ -20,7 +20,7 @@ export default function Projects() {
           </p>
         </Reveal>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-5 sm:grid-cols-2">
           {projects.map((project, idx) => (
             <Reveal key={project.name} delay={((idx % 4) + 1) as 1 | 2 | 3 | 4}>
               <div className="group flex h-full flex-col overflow-hidden rounded-lg border border-hairline bg-canvas transition-transform duration-300 hover:-translate-y-1">

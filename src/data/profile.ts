@@ -131,6 +131,15 @@ export const projects: Project[] = [
     image: '/projects/hcms.webp',
   },
   {
+    name: 'PELITA',
+    tagline: 'National Government Data Integration Portal',
+    tags: ['Node.js', 'REST API', 'Data Integration'],
+    summary: 'Ministry of Home Affairs data portal integrating large-scale data from ministries, agencies, and regional governments nationwide.',
+    role: 'Backend Developer',
+    contribution: 'API standardization across regional governments, integration automation, and performance optimization.',
+    image: '/projects/pelita.webp',
+  },
+  {
     name: 'XOCR.AI',
     tagline: 'Xtended OCR — Document Extraction Platform',
     tags: ['Node.js', 'REST API', 'OCR Integration'],
